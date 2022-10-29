@@ -1,0 +1,13 @@
+body {
+    background-color: palegoldenrod;
+}
+
+a {
+    color: rgb(160, 82, 45);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+li {
+    color: rgb(160, 82, 45);
+}

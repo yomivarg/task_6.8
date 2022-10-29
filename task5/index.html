@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS-Start. 3 задача</title>
+    <style type="text/css">
+        body {
+    background-color: palegoldenrod;
+}
+p {
+    color: rgb(160, 82, 45);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+label {
+    color: rgb(160, 82, 45);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+button {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    background-color: rgb(232, 182, 128);
+    border-color: rgb(160, 82, 45);
+    border-style: dotted;
+}
+input {
+    background-color: rgb(232, 182, 128);
+    border-color: rgb(160, 82, 45);
+    border-style: dotted;
+}
+::placeholder {
+    color: white;
+}
+    </style>
+</head>
+<body>
+<form action="#">
+    <label>
+        Текст
+        <input id="vvod" type="text" placeholder="Введите текст">
+    </label>
+    <button id="button" type="submit">
+        Вывести текст в консоль и удалить из формы
+    </button>
+</form>
+<hr>
+<p>Введенный текст:</p>
+<p id="duplicate"></p>
+<script src="script.js"></script>
+</body>
+</html>
+
